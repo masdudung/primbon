@@ -157,7 +157,7 @@ if(!isset($_GET['user']) or empty($_GET['user'])){
     );
     $primbon = new Primbon($config);
 }else{
-    if($_GET['user'] != 'sianginselatan92'){
+    if($_GET['user'] != 'gagakSeta'){
         exit;
     }
     $host = 'localhost';
